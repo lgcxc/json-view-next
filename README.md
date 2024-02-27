@@ -1,2 +1,2 @@
-# vue3-json-view
-vue3-json-view
+# json-view-vue-next
+json-view-vue-next
