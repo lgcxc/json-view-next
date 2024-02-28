@@ -1,7 +1,7 @@
 {
   "name": "@tencent/json-view-next",
   "description": "一个用于展示json的vue3组件",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "author": "liugang <993372246@qq.com>",
   "license": "MIT",
   "private": false,
@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "build:lib": "concurrently \"npm version patch\" \"vue-tsc && vite build --mode lib\" ",
+    "build:lib": "concurrently \"npm version patch --force\" \"vue-tsc && vite build --mode lib\" ",
     "preview": "vite preview"
   },
   "dependencies": {
