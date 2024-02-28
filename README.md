@@ -1,2 +1,2 @@
-# json-view-vue-next
-json-view-vue-next
+# json-view-next
+json-view-next
