@@ -38,7 +38,7 @@ jobs:
       - name: Set registry
         run: npm config set registry https://registry.npm.taobao.org
       - name: Install dependencies
-        run: npm install --timeout=300000
+        run: npm install --timeout=120000
       - name: Build
         run: npm run build
       - name: Setup Pages
