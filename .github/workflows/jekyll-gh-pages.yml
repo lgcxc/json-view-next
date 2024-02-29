@@ -36,7 +36,7 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Set registry
-        run: npm config set registry https://registry.npmjs.org/
+        run: npm config set registry https://mirrors.tencent.com/npm/
       - name: Install dependencies
         run: npm install --timeout=60000
       - name: Build
