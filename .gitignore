@@ -23,5 +23,3 @@ lib
 *.njsproj
 *.sln
 *.sw?
-
-build-npm.sh
