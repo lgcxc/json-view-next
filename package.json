@@ -1,14 +1,15 @@
 {
   "name": "@tencent/json-view-next",
   "description": "一个用于展示json的vue3组件",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "author": "liugang <993372246@qq.com>",
   "license": "MIT",
   "private": false,
   "type": "module",
   "files": [
     "lib",
-    "src"
+    "src",
+    "public"
   ],
   "main": "./lib/json-view-next.es.js",
   "module": "./lib/json-view-next.umd.js",
