@@ -1,3 +1,5 @@
+一个用于展示json的vue3组件
+
 ### 1.查看示例
 [在线示例](https://lgcxc.github.io/json-view-next/)
 
