@@ -35,14 +35,13 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+          registry-url: https://registry.npmjs.org/
       - name: Install dependencies
         run: npm install
       - name: Build
         run: npm run build
       - name: Build lib
         run: npm run build:lib
-        with:
-          registry-url: https://registry.npmjs.org/
       - name: Npm publish
         run: npm publish
         env:
