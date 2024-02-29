@@ -1,5 +1,5 @@
 {
-  "name": "@tencent/json-view-next",
+  "name": "json-view-next",
   "description": "一个用于展示json的vue3组件",
   "version": "0.0.21",
   "author": "liugang <993372246@qq.com>",
@@ -8,8 +8,7 @@
   "type": "module",
   "files": [
     "lib",
-    "src",
-    "public"
+    "src"
   ],
   "main": "./lib/json-view-next.es.js",
   "module": "./lib/json-view-next.umd.js",
@@ -66,7 +65,9 @@
     "concurrently": "^8.2.2"
   },
   "keywords": [
-    "json-view-next"
+    "json-view-next",
+    "json-view",
+    "json"
   ],
   "config": {
     "commitizen": {
