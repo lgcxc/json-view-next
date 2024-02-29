@@ -35,6 +35,8 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+      - name: registry
+        run: npm config set registry https://registry.npmjs.org/
       - name: Install dependencies
         run: npm install --timeout=60000
       - name: Build
