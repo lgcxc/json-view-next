@@ -211,7 +211,6 @@ onMounted(() => {
 });
 
 const formatValue = (data: any) => {
-  // eslint-disable-next-line no-underscore-dangle
   if (data && data._isBigNumber) {
     return data.toString(10);
   }
@@ -219,7 +218,6 @@ const formatValue = (data: any) => {
 };
 
 const getDataType = (data: any) => {
-  // eslint-disable-next-line no-underscore-dangle
   return data && data._isBigNumber ? 'number' : Object.prototype.toString.call(data).slice(8, -1).toLowerCase();
 };
 

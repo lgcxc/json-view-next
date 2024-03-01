@@ -16,9 +16,18 @@ export default defineConfig(({ mode }) => {
           '@': path.resolve(__dirname, './src'),
         },
       },
+      css: {
+        preprocessorOptions: {
+          less: {
+            math: 'strict',
+            javascriptEnabled: true,
+          },
+        },
+      },
       plugins: [
         vue(),
         vueJsx(),
+        svgLoader(),
         dts({
           include: ['src/packages/**/*.{vue,ts,tsx}'],
         }),
@@ -45,6 +54,9 @@ export default defineConfig(({ mode }) => {
             },
           },
         },
+      },
+      esbuild: {
+        drop: ['console', 'debugger'],
       },
     };
   }
