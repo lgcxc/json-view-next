@@ -19,6 +19,11 @@
       "require": "./lib/json-view-next.es.js"
     }
   },
+  "homepage": "https://lgcxc.github.io/json-view-next/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgcxc/json-view-next.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
