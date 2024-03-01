@@ -4,6 +4,14 @@
 
 ### Patch Changes
 
+- 466ca9d: docs: 测试
+- b1fddc9: ci: 测试
+- 8a4a355: docs: 测试
+
+## 0.0.5
+
+### Patch Changes
+
 - c151739: docs: 测试
 - 1b6bfe4: ci: 测试
 - e1a34f5: docs: 测试
