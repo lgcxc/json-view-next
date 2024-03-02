@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.7
+
+### Patch Changes
+
+- 8920ae1: ci: 更新action版本
+
 ## 0.0.6
 
 ### Patch Changes
