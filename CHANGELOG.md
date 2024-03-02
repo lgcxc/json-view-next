@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.6
+
+### Patch Changes
+
+- a7e0eab: ci: 修改构建文件
+
 ## 0.0.5
 
 ### Patch Changes
