@@ -33,12 +33,12 @@
     "version": "changeset version && npm install"
   },
   "dependencies": {
-    "@changesets/cli": "^2.27.1",
     "vue": "^3.4.19"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
+    "@changesets/cli": "^2.27.1",
     "@types/node": "^20.11.3",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
     "@typescript-eslint/parser": "^6.18.1",
