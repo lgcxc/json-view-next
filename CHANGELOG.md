@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.8
+
+### Patch Changes
+
+- abff9fb: ci: 更改包@changesets/cli的安装位置
+
 ## 0.0.7
 
 ### Patch Changes
