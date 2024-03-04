@@ -1,5 +1,5 @@
 <template>
-  <div v-if="visible" :class="['json-view-container', theme, `deep-${currentDeep}`]">
+  <div v-if="visible" :class="['json-view-next-container', theme, `deep-${currentDeep}`]">
     <div
       :class="['json-view', length ? 'closeable' : '']"
       :style="{ fontSize: fontSize + 'px', lineHeight: lineHeight + 'px' }"
