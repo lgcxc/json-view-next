@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.9
+
+### Patch Changes
+
+- ee4934b: style: "./lib/style.css": "./lib/style.css"
+
 ## 0.0.8
 
 ### Patch Changes
