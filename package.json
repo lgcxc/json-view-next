@@ -17,7 +17,8 @@
     ".": {
       "import": "./lib/json-view-next.umd.js",
       "require": "./lib/json-view-next.es.js"
-    }
+    },
+    "./lib/style.css": "./lib/style.css"
   },
   "homepage": "https://lgcxc.github.io/json-view-next/",
   "repository": {
