@@ -123,7 +123,7 @@ export default {
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue';
 
-import { JsonViewNextProps } from '@/packages/json-view-next/interface.d';
+import { JsonViewNextProps } from './interface.d';
 
 const props = withDefaults(defineProps<JsonViewNextProps>(), {
   data: () => [], // 传入的json数据
