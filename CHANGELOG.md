@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.12
+
+### Patch Changes
+
+- 631ef86: types: 引入文件路径修改
+
 ## 0.0.11
 
 ### Patch Changes
