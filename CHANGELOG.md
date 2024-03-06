@@ -1,5 +1,17 @@
 # json-view-next
 
+## 0.0.11
+
+### Patch Changes
+
+- 8c4afc9: docs: 修改文档
+
+## 0.0.10
+
+### Patch Changes
+
+- 3b7cf2c: style: 修改css
+
 ## 0.0.9
 
 ### Patch Changes
