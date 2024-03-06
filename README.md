@@ -1,4 +1,12 @@
+
+
+# json-view-next
 一个用于展示json的vue3组件
+
+[![npm json-view-next package](https://img.shields.io/npm/v/json-view-next)](https://www.npmjs.com/package/json-view-next)
+
+![image](https://lgcxc.github.io/json-view-next/json-view-next.png)
+
 
 ### 1.查看示例
 [在线示例](https://lgcxc.github.io/json-view-next/)
