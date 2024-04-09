@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- ff0b4e7: 整理package.json字段顺序
+
+## 0.0.12
+
+### Patch Changes
+
 - 631ef86: types: 引入文件路径修改
 
 ## 0.0.11
