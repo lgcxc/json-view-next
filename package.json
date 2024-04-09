@@ -1,11 +1,24 @@
 {
   "name": "json-view-next",
-  "description": "一个用于展示json的vue3组件",
-  "version": "0.0.11",
-  "author": "liugang <993372246@qq.com>",
-  "license": "MIT",
-  "private": false,
   "type": "module",
+  "version": "0.0.11",
+  "description": "一个用于展示json的vue3组件",
+  "keywords": [
+    "json-view-next",
+    "json-view",
+    "json"
+  ],
+  "homepage": "https://lgcxc.github.io/json-view-next/",
+  "license": "MIT",
+  "author": "liugang <993372246@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgcxc/json-view-next.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/lgcxc/json-view-next/issues",
+    "email" : "993372246@qq.com"
+  },
   "files": [
     "lib",
     "src"
@@ -19,11 +32,6 @@
       "require": "./lib/json-view-next.es.js"
     },
     "./lib/style.css": "./lib/style.css"
-  },
-  "homepage": "https://lgcxc.github.io/json-view-next/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lgcxc/json-view-next.git"
   },
   "scripts": {
     "dev": "vite",
@@ -76,11 +84,6 @@
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.9.6"
   },
-  "keywords": [
-    "json-view-next",
-    "json-view",
-    "json"
-  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
@@ -94,5 +97,6 @@
     "*.{html,vue,css,sass,less}": [
       "npm run stylelint:fix"
     ]
-  }
+  },
+  "private": false
 }
