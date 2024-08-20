@@ -59,4 +59,7 @@ line-height|行高，单位px|Number|24
 
 ```shell
 pnpm exec changeset
+git add .
+git commit -m 'feat: xxx'
+git push
 ```
