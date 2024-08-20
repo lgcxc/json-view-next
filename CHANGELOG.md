@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.15
+
+### Patch Changes
+
+- a660b21: docs:更新README.md
+
 ## 0.0.14
 
 ### Patch Changes
