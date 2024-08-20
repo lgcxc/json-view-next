@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.14
+
+### Patch Changes
+
+- 2439efa: docs:更新README.md
+
 ## 0.0.13
 
 ### Patch Changes
