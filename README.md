@@ -41,6 +41,22 @@ line-height|行高，单位px|Number|24
 
 **注：行高和字体大小不建议选用过大值，因为icon大小、每行的padding-left等参数并不会随之发生改变**
 
+### 4.value支持slot插槽
 
 
+```vue
+<json-view-next>
+  <template #value="{ item }">
+    <!-- 插槽 -->
+  </template>
+</json-view-next>
+```
 
+![image](https://lgcxc.github.io/json-view-next/slots.value.png)
+
+
+### 5.如何提交代码
+
+```shell
+pnpm exec changeset
+```
