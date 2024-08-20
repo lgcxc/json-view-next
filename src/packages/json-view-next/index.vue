@@ -93,15 +93,29 @@
               :line-height="lineHeight"
               :icon-color="iconColors"
               :is-last="index === items.length - 1"
-            />
+            >
+              <!-- 将slot传递给子组件 -->
+              <template v-if="$slots.value" #value="slotProps">
+                <slot name="value" v-bind="slotProps"></slot>
+              </template>
+            </json-view-next>
             <p v-else :key="`else-${index}`" class="json-item">
               <span class="json-key">{{ isArray ? '' : '"' + item.key + '":' }}</span>
               <span :class="['json-value', getDataType(item.value)]">
-                {{
-                  `${getDataType(item.value) === 'string' ? '"' : ''}${formatValue(item.value)}${
-                    getDataType(item.value) === 'string' ? '"' : ''
-                  }${index === items.length - 1 ? '' : ','}`
-                }}
+                <!--                {{-->
+                <!--                  `${getDataType(item.value) === 'string' ? '"' : ''}${formatValue(item.value)}${-->
+                <!--                    getDataType(item.value) === 'string' ? '"' : ''-->
+                <!--                  }${index === items.length - 1 ? '' : ','}`-->
+                <!--                }}-->
+
+                <slot v-if="$slots.value" name="value" :item="item" :index="index" />
+                <template v-else>
+                  <span>{{ getDataType(item.value) === 'string' ? '"' : '' }}</span>
+                  <span>{{ formatValue(item.value) }}</span>
+                  <span>{{ getDataType(item.value) === 'string' ? '"' : '' }}</span>
+                </template>
+
+                <span>{{ index === items.length - 1 ? '' : ',' }}</span>
               </span>
             </p>
           </template>
