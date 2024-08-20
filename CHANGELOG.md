@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.13
+
+### Patch Changes
+
+- f8c4716: value支持slot插槽
+
 ## 0.0.12
 
 ### Patch Changes
