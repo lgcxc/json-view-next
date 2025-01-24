@@ -115,7 +115,7 @@
                   <span>{{ getDataType(item.value) === 'string' ? '"' : '' }}</span>
                 </template>
 
-                <!--                <span>{{ index === items.length - 1 ? '' : ',' }}</span>-->
+                <span>{{ index === items.length - 1 ? '' : '' }}</span>
               </span>
             </p>
           </template>
@@ -171,7 +171,7 @@ const subfix = computed(() => {
     // 如果是空数组或空对象
     return '';
   }
-  return (isArray.value ? ']' : '}') + (props.isLast ? '' : ',');
+  return (isArray.value ? ']' : '}') + (props.isLast ? '' : '');
 });
 
 const prefix = computed(() => {
