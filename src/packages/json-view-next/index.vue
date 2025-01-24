@@ -115,7 +115,7 @@
                   <span>{{ getDataType(item.value) === 'string' ? '"' : '' }}</span>
                 </template>
 
-                <span>{{ index === items.length - 1 ? '' : ',' }}</span>
+                <!--                <span>{{ index === items.length - 1 ? '' : ',' }}</span>-->
               </span>
             </p>
           </template>
