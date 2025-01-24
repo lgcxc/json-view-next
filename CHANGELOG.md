@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.18
+
+### Patch Changes
+
+- 7220cd1: 逗号不要了
+
 ## 0.0.17
 
 ### Patch Changes
