@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.16
+
+### Patch Changes
+
+- 1964094: 逗号去掉
+
 ## 0.0.15
 
 ### Patch Changes
