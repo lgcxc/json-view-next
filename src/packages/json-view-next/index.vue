@@ -228,6 +228,7 @@ const formatValue = (data: any) => {
   if (data && data._isBigNumber) {
     return data.toString(10);
   }
+  // console.log(data);
   return data;
 };
 
