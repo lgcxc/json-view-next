@@ -1,5 +1,12 @@
 # json-view-next
 
+## 0.0.17
+
+### Patch Changes
+
+- 7f8a617: 逗号去掉
+- 1d2ada4: 逗号去掉
+
 ## 0.0.16
 
 ### Patch Changes
