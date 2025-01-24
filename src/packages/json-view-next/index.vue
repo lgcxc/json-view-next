@@ -75,7 +75,7 @@
             >{{ prefix }}{{ innerclosed ? '...' + subfix : '' }}
             <span class="json-note">{{ innerclosed ? length + ' items' : '' }}</span>
           </span>
-          <span v-if="!length">{{ `${isArray ? '[]' : '{}'}${isLast ? '' : ','}` }}</span>
+          <span v-if="!length">{{ `${isArray ? '[]' : '{}'}${isLast ? '' : ''}` }}</span>
         </p>
         <div v-if="!innerclosed && length" class="json-body">
           <template v-for="(item, index) in items">
@@ -115,7 +115,7 @@
                   <span>{{ getDataType(item.value) === 'string' ? '"' : '' }}</span>
                 </template>
 
-                <span>{{ index === items.length - 1 ? '' : ',' }}</span>
+                <!--                <span>{{ index === items.length - 1 ? '' : ',' }}</span>-->
               </span>
             </p>
           </template>
