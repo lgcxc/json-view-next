@@ -1,5 +1,11 @@
 # json-view-next
 
+## 0.0.20
+
+### Patch Changes
+
+- 5ea9fec: 测试
+
 ## 0.0.19
 
 ### Patch Changes
